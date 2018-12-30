@@ -16,8 +16,8 @@ import sys, datetime
 
 from reportlab.lib import colors
 from reportlab.platypus import BaseDocTemplate, Table, TableStyle, Frame, PageTemplate
-from reportlab.lib.pagesizes import cm, inch, A4, landscape
-from reportlab.lib.units import mm
+from reportlab.lib.pagesizes import A4, landscape
+from reportlab.lib.units import cm, mm, inch
 
 try:
 	year = int(sys.argv[1])
